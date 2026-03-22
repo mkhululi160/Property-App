@@ -1,0 +1,408 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Backend specific
+backend/uploads/
+backend/node_modules/
+backend/package-lock.json
+backend/yarn.lock
+
+# Frontend specific
+frontend/build/
+frontend/node_modules/
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js
+*.spec.js
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# MongoDB data
+data/
+mongodb-data/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Session files
+session/
+sessions/
+
+# Certificates
+*.pem
+*.key
+*.crt
+
+# Production artifacts
+*.min.js
+*.min.css
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Local configuration
+config.local.js
+config.local.json
+settings.local.js
+settings.local.json
+
+# API keys and secrets
+secrets.js
+secrets.json
+*.secret.js
+*.secret.json
+
+# User uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Cloudinary cache
+cloudinary-cache/
+
+# Stripe webhook logs
+stripe-webhook.log
+
+# Email attachments
+email-attachments/
+
+# Documentation
+docs/_build/
+docs/api/
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Sentry config file
+.sentryclirc
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Stylelint cache
+.stylelintcache
+
+# Webpack cache
+.webpack-cache
+
+# Babel cache
+.babel-cache
+
+# Jest cache
+.jest-cache
+
+# Gatsby files
+.cache/
+public
+
+# GraphQL
+schema.graphql
+graphql.schema.json
+
+# Firebase
+.firebase/
+.firebaserc.local
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Python (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Java (if using any Java scripts)
+*.class
+
+# PHP (if using any PHP scripts)
+*.log
+composer.lock
+vendor/
+
+# Ruby (if using any Ruby scripts)
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# ESLint and Prettier
+.eslintrc.json
+.prettierrc.json
+
+# Environment files for different environments
+.env.development
+.env.staging
+.env.production
+.env.test
+
+# Application specific
+*.pid
+*.seed
+*.pid.lock
+
+# VS Code specific
+.vscode/
+.history/
+*.vsix
+
+# Windows thumbnail cache
+ehthumbs.db
+Thumbs.db
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux files
+.directory
+.directory-*
+*~
+*.old
+*.orig
+*.swp
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Debug files
+debug.log
+*.debug.log
+
+# Profiling data
+*.cpuprofile
+*.heapsnapshot
+
+# Test artifacts
+test-results/
+test-report.html
+
+# Performance monitoring
+.trace/
+.trace.json
+
+# Dependency graphs
+dependency-graph.json
+
+# Application cache
+.cache-loader
+.parcel-cache
+
+# Storybook
+storybook-static/
+
+# Chromatic
+.chromatic/
+
+# ESLint report
+eslint-report.json
+
+# Stylelint report
+stylelint-report.json
+
+# Jest report
+jest-report.json
+jest_html_reporters.html
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/fixtures/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Selenium
+selenium-debug.log
+
+# Puppeteer
+.puppeteer
+
+# Lighthouse
+.lighthouseci/
+
+# ESLint coverage
+coverage/
+
+# API documentation
+apidoc/
+
+# Swagger
+swagger.json
+
+# GraphQL playground
+.graphql-playground
+
+# Redis
+dump.rdb
+
+# Elasticsearch
+elasticsearch-data/
+
+# RabbitMQ
+rabbitmq-data/
+
+# MySQL
+mysql-data/
+
+# PostgreSQL
+postgres-data/
+
+# MongoDB
+mongodb-data/
