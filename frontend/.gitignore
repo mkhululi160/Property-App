@@ -232,7 +232,6 @@ kubeconfig
 
 # Gatsby files
 .cache/
-public
 
 # GraphQL
 schema.graphql
